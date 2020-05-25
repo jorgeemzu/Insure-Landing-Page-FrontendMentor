@@ -516,6 +516,7 @@ footer{
      .menu__item  a{
         color: var(--darkGrayViolet);
         transition: .5s ease;
+        text-transform: uppercase;
     } 
 
     .menu__item  a:hover{
@@ -527,6 +528,7 @@ footer{
         padding: .5em 2em;
         color: var(--darViolet);
         transition: .3s ease;
+        text-transform: uppercase;
     }
 
     
