@@ -270,7 +270,11 @@ main{
     overflow: hidden;
 }
 
-.more h2,a{
+a{
+    text-decoration: none;
+}
+
+.more h2{
     color: #fff;
     text-decoration: none;
     position: relative;
@@ -436,21 +440,21 @@ footer{
        text-align: center;
    }
    
-   .menu__item{
+   .menu li > a{
        color:var(--lightGray);
-       font-size: 1.5rem;
+       font-size: 2rem;
        font-weight: 400;
    
    }
    
-   .menu__item + .menu__item{
-       margin-top: 1em;
+    .menu >li + li{
+       margin-top: 1.5em;
    }
    
-   .menu__item:nth-child(4){
-       border: solid 1px var(--lightGray);
-       padding: .5em;
-       width: 100%;
+   .menu__btn{
+    border: solid 1px var(--lightGray);
+    padding: .3em 1em;
+    width: 100%;
    }
    
    .hero{
@@ -564,7 +568,6 @@ footer{
     .hero__text > h1{
         font-size: 4rem;
         width: 90%;
-        margin: 0;
     }
 
     .hero__text p{
