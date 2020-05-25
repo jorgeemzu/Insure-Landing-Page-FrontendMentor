@@ -564,6 +564,7 @@ footer{
     .hero__text > h1{
         font-size: 4rem;
         width: 90%;
+        margin: 0;
     }
 
     .hero__text p{
